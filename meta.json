@@ -6,7 +6,7 @@
   "tags": [],
   "url": "https://github.com/enthus1ast/nimIsPrivateIp",
   "refs": [
-    "fatal: unable to access 'https://github.com/enthus1ast/nimIsPrivateIp/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/enthus1ast/nimIsPrivateIp/': SSL connection timeout",
     ""
   ],
   "heads": []
