@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."isprivateip-master".dir   = "master";
-  inputs."isprivateip-master".owner = "nim-nix-pkgs";
-  inputs."isprivateip-master".ref   = "master";
-  inputs."isprivateip-master".repo  = "isprivateip";
-  inputs."isprivateip-master".type  = "github";
-  inputs."isprivateip-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."isprivateip-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
